@@ -1,7 +1,26 @@
 aid: curio-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/curio-labs.png
 name: Curio Labs
-description: Curio Labs is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Curio (curio.io), operated by Curio Labs, was a London-based audio-journalism
+  subscription app founded in 2016 by Govind Balakrishnan and Srikant Chakravarti. It
+  turned articles from premium publishers into professionally narrated audio and later
+  added AI-generated personalized episodes. Backed by 500 Global (formerly 500 Startups),
+  EarlyBird, Draper Esprit, Cherry Ventures and Horizons Ventures, it raised over $15M
+  before the founders wound the company down after eight years, citing AI and big-tech
+  competition; they have since moved on to a new venture (Gibran). Enrichment probe finds
+  no public API, developer portal, documentation, SDKs, or OpenAPI surface — curio.io now
+  serves a closure/landing page only.'
 url: https://raw.githubusercontent.com/api-evangelist/curio-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Audio
+- Journalism
+- Media
+- Podcasts
+- Subscription
+- Consumer App
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/curio-labs-domain-security.yml
 - type: Website
   url: https://curio.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
